@@ -74,7 +74,7 @@ if(!usuarioLogado){
         const cliente = JSON.parse(usuarioLogado)
         textoPedidoPorEmail += '\n\nDados do Cliente:\nNome: ' + cliente.nome + '\nE-mail: ' + cliente.telefone
 
-        const emailTiaSonia = 'seu@email.com'
+        const emailTiaSonia = 'samuel62622766@edu.df.senac.br'
         const assunto = 'Novo Pedido de ' + cliente.nome
 
         const linkEmail = 'https://mail.google.com/mail/?view=cm&fs=1&to=${emailTiaSonia}&su=${encodeURIComponent(assunto)}&body=${encodeURIComponent(textoPedidoPorEmail)}'
